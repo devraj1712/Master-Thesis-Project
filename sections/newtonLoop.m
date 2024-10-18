@@ -25,7 +25,7 @@ while eN > TOL
     xn = Xn + Ux(:,1:2)  ;        % New co-ordinate position of control points
     clear Ux;
     startTimeBulkPart(ls, ns) = toc;
-    IGA_Elem2D; 
+    elemGPUCompute; 
     endTimeBulkPart(ls, ns) = toc - startTimeBulkPart(ls, ns);
     
     % Terminate computation
