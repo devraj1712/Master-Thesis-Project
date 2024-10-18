@@ -1,6 +1,4 @@
 % FELP - Gaussian Quadature Points and Weights
-% Roger Sauer - 12.12.05
-
 
 % % 1D Quadrature
 % if jgaus == 1
