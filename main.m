@@ -1,8 +1,3 @@
-%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Contribution towards restructuring: Sumit Kumar Das, Devraj SIngh Gaidu                     %
-% Original contribution: Vishal Agrawal                                   %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 close all; clear; clc;
 
 path1 = genpath('nurbs-1.4.3');
