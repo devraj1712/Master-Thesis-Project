@@ -27,6 +27,7 @@ flag       = 0; % for time integration schemes
 jsave = 1;
 fric=0;
 % flag_num_scheme = 0; % flag for time-integration scheme
+gpuDevice();
 
 %% Mesh generation
 
@@ -366,6 +367,7 @@ fprintf('---------------------------------------------------------------');
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+initGPUArray;
 wcounter = 1;
 while ttime < endTime
     counter_20   = 0 ;
